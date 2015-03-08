@@ -1,0 +1,161 @@
+/*anotacion*/
+
+body{
+background-image: url("./img/minion.jpg");
+}
+
+.cabezote{
+	background-image: url("./img/oscuro2.png");
+	height: 150px; 
+	position: center;
+}
+
+.wrap{
+	padding: 0;
+    width :75%;
+    min-width:600px;
+    background-image: url("./img/claro1.png");
+    margin: auto;
+}
+
+#corre{
+	width: 30%;
+	height: 20%;
+	margin-top: 10px;
+}
+#nombre{
+	margin-left: 300px;
+}
+em{
+	font-size: 10px;
+}
+li{
+  display: inline;
+  padding-right: 15px;
+  font-size:20px;
+
+}
+li a{
+	text-decoration: none;
+	color: black;
+}	
+
+li a:hover{
+	color: #666;
+	font-weight: bold;
+}
+h4{
+	font-size: 25px;
+	color: blue;
+	font-family: 'Indie Flower', cursive;
+	margin-left: 400px;
+}
+#principal {-webkit-animation: anim2 ease-in-out 3s infinite alternate; }
+@-webkit-keyframes anim2
+{
+   from {left: 0px;   -webkit-transform: scale(1.0) rotate(0deg)   }
+   50%  {left: 250px; -webkit-transform: scale(0.8) rotate(10deg)  }
+   to   {left: 500px; -webkit-transform: scale(1.2) rotate(-20deg) }
+}
+#principal{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	width: 150px;
+	height: 170px;
+}
+#segundo {-webkit-animation: anim2 ease-in-out 3s infinite alternate; }
+@-webkit-keyframes anim2
+{
+   from {left: 0px;   -webkit-transform: scale(1.0) rotate(0deg)   }
+   50%  {left: 250px; -webkit-transform: scale(0.8) rotate(10deg)  }
+   to   {left: 500px; -webkit-transform: scale(1.2) rotate(-20deg) }
+}
+#segundo{
+	margin-top: 0px;
+	margin-left:300px;
+	width: 150px;
+	height: 170px;
+}
+#text{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+nav ul li {
+    margin: 20px; padding: 10px; text-transform:capitalize; font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+    border-style: solid;
+    border-color:#ffffff
+    color:black;
+}
+nav{
+	margin-top: 0px;
+	margin-left: 200px;
+}
+/*div eventos*/
+h6{
+	font-size: 25px;
+	color: black;
+	font-family: 'Indie Flower';
+	margin-left: 50px;
+}
+
+#ev1{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+#ev2{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+#ev3{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+iframe{
+	margin-left: 200px;
+}
+/*div contacto*/
+label{
+	font-size: 20px;
+	font-family: 'Indie Flower', cursive;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'Indie Flower', cursive;
+}
+textarea{
+	width: 400px;
+	height: 70px;
+}
+
+
+footer {
+	background-image: url("./img/oscuro1.png");
+	height: 50px; 
+	position: center;
+}
+
+#footer{
+	color: yellow;
+	margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
